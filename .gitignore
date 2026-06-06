@@ -1,0 +1,41 @@
+# macOS and editor state
+.DS_Store
+*.swp
+*.swo
+
+# Local temporary outputs
+tmp/
+*.tmp
+*.log
+
+# Large local working files not intended for the public repo
+*.pptx
+~$*
+*.key
+*.pages
+*.numbers
+
+# Local paper drafts and unrelated PDFs
+*.pdf
+!assets/astra-paper.pdf
+
+# Local scratch images and reports
+Weixin Image_*
+case1.png
+case2.png
+system_message.png
+SI-UMM*.pdf
+2026 ICML 2026 Financial Aid Application.pdf
+Formatting_Instructions_For_NeurIPS_2026/
+
+# Python / Node caches
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+venv/
+
+# Build outputs
+dist/
+build/
+.cache/

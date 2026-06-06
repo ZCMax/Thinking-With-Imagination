@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#FBBC04" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- speech bubble -->
+  <path d="M8 12 H56 A4 4 0 0 1 60 16 V40 A4 4 0 0 1 56 44 H26 L16 54 V44 H8 A4 4 0 0 1 4 40 V16 A4 4 0 0 1 8 12 Z"/>
+  <!-- 3D axes inside bubble -->
+  <line x1="22" y1="36" x2="22" y2="20" stroke="#2ecc71"/>
+  <line x1="22" y1="36" x2="38" y2="36" stroke="#e74c3c"/>
+  <line x1="22" y1="36" x2="14" y2="44" stroke="#3498db"/>
+  <circle cx="22" cy="36" r="2" fill="#FBBC04" stroke="none"/>
+</svg>

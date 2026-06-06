@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- two interleaved streams (VQA solid blue, pose dashed orange) -->
+  <path d="M6 18 C 20 18, 20 46, 34 46 S 48 18, 58 18" stroke="#FBBC04"/>
+  <path d="M6 46 C 20 46, 20 18, 34 18 S 48 46, 58 46" stroke="#ffffff" stroke-dasharray="4 4"/>
+  <!-- endpoint dots -->
+  <circle cx="6"  cy="18" r="2.5" fill="#FBBC04" stroke="none"/>
+  <circle cx="58" cy="18" r="2.5" fill="#FBBC04" stroke="none"/>
+  <circle cx="6"  cy="46" r="2.5" fill="#ffffff" stroke="none"/>
+  <circle cx="58" cy="46" r="2.5" fill="#ffffff" stroke="none"/>
+</svg>
