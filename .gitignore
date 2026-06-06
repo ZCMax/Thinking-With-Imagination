@@ -17,7 +17,6 @@ tmp/
 
 # Local paper drafts and unrelated PDFs
 *.pdf
-!assets/astra-paper.pdf
 
 # Local scratch images and reports
 Weixin Image_*
