@@ -3,6 +3,7 @@
 [![Project Page](https://img.shields.io/badge/Project_Page-blue)](https://zcmax.github.io/projects/Thinking-With-Imagination)
 [![arXiv](https://img.shields.io/badge/arXiv-2606.06476-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2606.06476)
 [![PDF](https://img.shields.io/badge/PDF-arXiv-red.svg)](https://arxiv.org/pdf/2606.06476)
+[![Astra-WM](https://img.shields.io/badge/Astra--WM-checkpoint-yellow?logo=huggingface)](https://huggingface.co/ChaimZhu/Astra-WM/tree/main)
 
 This is the official project repository for
 [Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators](https://arxiv.org/abs/2606.06476).
@@ -138,7 +139,7 @@ The same trained Astra policy is evaluated under no-tool/direct-answer, forced-t
 ## 🚀 Release Progress
 
 - [ ] Astra-VL and Astra-WM evaluation scripts
-- [ ] Astra-WM checkpoints
+- [x] [Astra-WM checkpoints](https://huggingface.co/ChaimZhu/Astra-WM/tree/main)
 - [ ] Astra-VL checkpoints
 - [ ] Astra training code
 
