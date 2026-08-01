@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="description" content="Anonymous supplementary qualitative comparison of action-conditioned novel-view generation models." />
+    <meta property="og:title" content="Action-Conditioned Novel-View Generation" />
+    <meta property="og:description" content="Anonymous supplementary qualitative comparison." />
+    <meta property="og:image" content="og.png" />
+    <title>World Simulator — Qualitative Comparison</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="page-header">
+        <div class="header-copy">
+          <p class="eyebrow">Supplementary qualitative results</p>
+          <h1>Action-Conditioned Novel-View Generation</h1>
+          <p class="dek">A side-by-side comparison of Astra-WM and general-purpose image generation or editing models under the same visual context and camera-motion instruction.</p>
+        </div>
+        <aside class="reading-note" aria-label="How to read this comparison">
+          <span>Reading the grid</span>
+          <p>Each row uses identical inputs. Compare camera-motion fidelity, scene identity, and spatial layout against the ground-truth view.</p>
+        </aside>
+      </header>
+
+      <section class="comparison-section" aria-labelledby="comparison-heading">
+        <div class="section-intro">
+          <div>
+            <p class="section-index">01 / Qualitative comparison</p>
+            <h2 id="comparison-heading">Five representative examples</h2>
+          </div>
+          <div class="legend" aria-label="Column highlights">
+            <span><i class="legend-mark legend-mark--ours"></i> Astra-WM</span>
+            <span><i class="legend-mark legend-mark--gt"></i> Ground truth</span>
+          </div>
+        </div>
+
+        <div class="table-scroll" role="region" aria-label="Model comparison grid" tabindex="0">
+          <div class="comparison-grid">
+            <div class="grid-header" aria-hidden="true">
+              <span>Context</span><span>Action</span><span>Nano-Banana</span><span>Qwen-Image-Edit</span><span>Bagel</span><span class="ours-label">Astra-WM</span><span>Ground Truth</span>
+            </div>
+
+            <article class="grid-row" aria-label="Example 01">
+              <div class="context-cell"><span class="example-number">Example 01</span><div class="context-images">
+                <a class="image-frame" href="results/image1.jpg" target="_blank"><img src="results/image1.jpg" alt="Example 01, context view 1" /><span class="open-hint">↗</span></a>
+                <a class="image-frame" href="results/image2.jpg" target="_blank"><img src="results/image2.jpg" alt="Example 01, context view 2" /><span class="open-hint">↗</span></a>
+              </div></div>
+              <div class="action-cell"><span class="action-label">Camera instruction</span><p>Based on the last image, pitch up by 40 degrees.</p></div>
+              <div class="result-cell"><a class="image-frame" href="results/image13.jpg" target="_blank"><img src="results/image13.jpg" alt="Example 01, Nano-Banana output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image8.jpg" target="_blank"><img src="results/image8.jpg" alt="Example 01, Qwen-Image-Edit output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image7.jpg" target="_blank"><img src="results/image7.jpg" alt="Example 01, Bagel output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ours" href="results/image3.jpg" target="_blank"><img src="results/image3.jpg" alt="Example 01, Astra-WM output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ground-truth" href="results/image9.jpg" target="_blank"><img src="results/image9.jpg" alt="Example 01, ground-truth view" /><span class="open-hint">↗</span></a></div>
+            </article>
+
+            <article class="grid-row" aria-label="Example 02">
+              <div class="context-cell"><span class="example-number">Example 02</span><div class="context-images">
+                <a class="image-frame" href="results/image4.jpg" target="_blank"><img src="results/image4.jpg" alt="Example 02, context view 1" /><span class="open-hint">↗</span></a>
+                <a class="image-frame" href="results/image5.jpg" target="_blank"><img src="results/image5.jpg" alt="Example 02, context view 2" /><span class="open-hint">↗</span></a>
+              </div></div>
+              <div class="action-cell"><span class="action-label">Camera instruction</span><p>Based on the last image, rotate 60 degrees to the right.</p></div>
+              <div class="result-cell"><a class="image-frame" href="results/image14.jpg" target="_blank"><img src="results/image14.jpg" alt="Example 02, Nano-Banana output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image12.jpg" target="_blank"><img src="results/image12.jpg" alt="Example 02, Qwen-Image-Edit output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image11.jpg" target="_blank"><img src="results/image11.jpg" alt="Example 02, Bagel output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ours" href="results/image6.jpg" target="_blank"><img src="results/image6.jpg" alt="Example 02, Astra-WM output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ground-truth" href="results/image10.jpg" target="_blank"><img src="results/image10.jpg" alt="Example 02, ground-truth view" /><span class="open-hint">↗</span></a></div>
+            </article>
+
+            <article class="grid-row" aria-label="Example 03">
+              <div class="context-cell"><span class="example-number">Example 03</span><div class="context-images">
+                <a class="image-frame" href="results/image15.jpg" target="_blank"><img src="results/image15.jpg" alt="Example 03, context view 1" /><span class="open-hint">↗</span></a>
+                <a class="image-frame" href="results/image27.jpg" target="_blank"><img src="results/image27.jpg" alt="Example 03, context view 2" /><span class="open-hint">↗</span></a>
+              </div></div>
+              <div class="action-cell"><span class="action-label">Camera instruction</span><p>Based on the last image, turn 60 degrees to the left.</p></div>
+              <div class="result-cell"><a class="image-frame" href="results/image28.jpg" target="_blank"><img src="results/image28.jpg" alt="Example 03, Nano-Banana output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image21.jpg" target="_blank"><img src="results/image21.jpg" alt="Example 03, Qwen-Image-Edit output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image22.jpg" target="_blank"><img src="results/image22.jpg" alt="Example 03, Bagel output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ours" href="results/image16.jpg" target="_blank"><img src="results/image16.jpg" alt="Example 03, Astra-WM output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ground-truth" href="results/image20.jpg" target="_blank"><img src="results/image20.jpg" alt="Example 03, ground-truth view" /><span class="open-hint">↗</span></a></div>
+            </article>
+
+            <article class="grid-row" aria-label="Example 04">
+              <div class="context-cell"><span class="example-number">Example 04</span><div class="context-images">
+                <a class="image-frame" href="results/image17.jpg" target="_blank"><img src="results/image17.jpg" alt="Example 04, context view 1" /><span class="open-hint">↗</span></a>
+                <a class="image-frame" href="results/image18.jpg" target="_blank"><img src="results/image18.jpg" alt="Example 04, context view 2" /><span class="open-hint">↗</span></a>
+              </div></div>
+              <div class="action-cell"><span class="action-label">Camera instruction</span><p>Based on the last image, turn 36 degrees to the right.</p></div>
+              <div class="result-cell"><a class="image-frame" href="results/image26.jpg" target="_blank"><img src="results/image26.jpg" alt="Example 04, Nano-Banana output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image24.jpg" target="_blank"><img src="results/image24.jpg" alt="Example 04, Qwen-Image-Edit output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image25.jpg" target="_blank"><img src="results/image25.jpg" alt="Example 04, Bagel output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ours" href="results/image19.jpg" target="_blank"><img src="results/image19.jpg" alt="Example 04, Astra-WM output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ground-truth" href="results/image23.jpg" target="_blank"><img src="results/image23.jpg" alt="Example 04, ground-truth view" /><span class="open-hint">↗</span></a></div>
+            </article>
+
+            <article class="grid-row" aria-label="Example 05">
+              <div class="context-cell"><span class="example-number">Example 05</span><div class="context-images">
+                <a class="image-frame" href="results/image29.jpg" target="_blank"><img src="results/image29.jpg" alt="Example 05, context view 1" /><span class="open-hint">↗</span></a>
+                <a class="image-frame" href="results/image30.jpg" target="_blank"><img src="results/image30.jpg" alt="Example 05, context view 2" /><span class="open-hint">↗</span></a>
+              </div></div>
+              <div class="action-cell"><span class="action-label">Camera instruction</span><p>Based on the last image, rotate to the right by 30 degrees.</p></div>
+              <div class="result-cell"><a class="image-frame" href="results/image41.jpg" target="_blank"><img src="results/image41.jpg" alt="Example 05, Nano-Banana output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image37.jpg" target="_blank"><img src="results/image37.jpg" alt="Example 05, Qwen-Image-Edit output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame" href="results/image36.jpg" target="_blank"><img src="results/image36.jpg" alt="Example 05, Bagel output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ours" href="results/image31.jpg" target="_blank"><img src="results/image31.jpg" alt="Example 05, Astra-WM output" /><span class="open-hint">↗</span></a></div>
+              <div class="result-cell"><a class="image-frame image-frame--ground-truth" href="results/image35.jpg" target="_blank"><img src="results/image35.jpg" alt="Example 05, ground-truth view" /><span class="open-hint">↗</span></a></div>
+            </article>
+          </div>
+        </div>
+
+        <p class="caption"><strong>Qualitative comparison.</strong> Given the same context images and camera-motion instruction, generic image editors often produce plausible images but may not preserve the intended viewpoint change or scene layout. Astra-WM is trained as an action-conditioned world simulator, with the goal of following the requested camera motion while preserving the scene identity. Select any image to inspect it at full resolution.</p>
+      </section>
+      <footer><span>Anonymous supplementary material</span><span>Qualitative results · 5 examples</span></footer>
+    </main>
+  </body>
+</html>
