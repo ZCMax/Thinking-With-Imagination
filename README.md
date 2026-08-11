@@ -1,3 +1,5 @@
+
+
 # Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators
 
 [![Project Page](https://img.shields.io/badge/Project_Page-blue)](https://zcmax.github.io/projects/Thinking-With-Imagination)
@@ -138,7 +140,7 @@ The same trained Astra policy is evaluated under no-tool/direct-answer, forced-t
 
 ## 🚀 Release Progress
 
-- [ ] Astra-VL and Astra-WM evaluation scripts
+- [x] Astra-VL and Astra-WM evaluation scripts
 - [x] [Astra-WM checkpoints](https://huggingface.co/ChaimZhu/Astra-WM/tree/main)
 - [ ] Astra-VL checkpoints
 - [ ] Astra training code
@@ -165,4 +167,4 @@ If you have any questions, please contact chaimzhu@connect.hku.hk.
 
 ## 💡 Acknowledgement
 
-We sincerely appreciate the following projects for their valuable codebase and benchmark: [Verl](https://github.com/volcengine/verl), [vllm-omni](https://github.com/vllm-project/vllm-omni), [SenseNova-MARS](https://github.com/OpenSenseNova/SenseNova-MARS), [MMSI-Bench](https://github.com/OpenRobotLab/MMSI-Bench), [MindCube](https://github.com/mll-lab-nu/MindCube).
+We sincerely appreciate the following projects for their valuable codebase and benchmarks: [Verl](https://github.com/volcengine/verl), [vllm-omni](https://github.com/vllm-project/vllm-omni), [SenseNova-MARS](https://github.com/OpenSenseNova/SenseNova-MARS), [MMSI-Bench](https://github.com/OpenRobotLab/MMSI-Bench), [MindCube](https://github.com/mll-lab-nu/MindCube).
